@@ -1,0 +1,58 @@
+/*--- CSS RESET ---*/
+* {
+padding:0;
+Sizing:0;
+box-sizing-border-box;
+}
+{ img
+  max-width:100%;
+ }
+
+/*--- GRID STRUCTURE ---*/
+.twocol .col {
+  display: inline-block;
+  margin: 1%;
+  width:48%;
+}
+.threecol .col {
+  display: inline-block;
+  margin: 2%;
+  width: 29.33%;
+  }
+.col padded {
+ padding: 5%;
+}
+
+header img,
+footer div {
+  display: inline-block;
+  width: 30%
+}
+header nav,
+footer nav {
+  display: inline-block;
+  width: 70%
+}
+/*--- Universal Styles ---*/
+.light {
+  background color: rgb (240, 240, 245);
+  }
+.dark {
+  background color: rgb (60, 60, 65);
+color: white:
+ }
+
+ header, intro, footer {
+   padding: 3vh, 5%;
+}
+nav {
+ text-align: right;
+}
+header nav a {
+  padding: 3%;
+  display: inline-block;
+}
+footer nav a {
+  display: block;
+  padding: 1%;
+}
